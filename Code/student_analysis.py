@@ -3,9 +3,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+
+# This function reads a JSON file and loads it into a pandas DataFrame
 df = pd.read_json('Data/Json_data.json')
 
-# Show a preview of the data
+# shows the first 5 rows of the DataFrame
 print(df.head())
 
 # Ensure the 'Visuals' folder exists
