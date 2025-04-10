@@ -38,6 +38,5 @@ data/*.csv
 data/*.txt
 data/*.xlsx
 
-
 # Plot images
 visuals/*.png
