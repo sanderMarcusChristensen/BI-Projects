@@ -1,7 +1,7 @@
 import pandas as pd
 
 # --- Extract ---
-file_path = "danish_weather_data.txt"
+file_path = "/Users/marcushjorth/Desktop/BI/BI-PROJECT-1-DATA-INGESTION-AND-WRANGLING/Data/Weather_data.txt"
 df_raw = pd.read_csv(file_path, sep="\t")
 
 # --- Transform ---
