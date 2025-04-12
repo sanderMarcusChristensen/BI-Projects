@@ -35,7 +35,6 @@ htmlcov/
 
 # Data files (optional – remove these if you want to keep raw data in Git)
 data/*.csv
-data/*.txt
 data/*.xlsx
 
 # Plot images

@@ -1,0 +1,17 @@
+Date	Location	Temperature	Humidity	Conditions
+2025-04-01	Copenhagen	8.3	72	Partly Cloudy
+2025-04-01	Aarhus	7.1	76	Overcast
+2025-04-01	Odense	6.5	78	Rain
+2025-04-02	Copenhagen	9.0	68	Sunny
+2025-04-02	Aarhus	8.2	70	Partly Cloudy
+2025-04-02	Odense	7.4	73	Cloudy
+2025-04-03	Copenhagen	7.8	75	Rain
+2025-04-03	Aarhus	6.9	77	Rain
+2025-04-03	Odense	6.2	79	Overcast
+2025-04-04	Copenhagen	6.5	80	Thunderstorms
+2025-04-04	Aarhus	5.8	82	Thunderstorms
+2025-04-05	Odense	5.3	85	Rain
+2025-04-05	Copenhagen	8.3	72	Partly Cloudy
+2025-04-05	Aarhus	7.1	76	Overcast
+2025-04-05	Odense	6.5	78	Rain
+2025-04-06	COPENHAGEN	8.3	72	Partly Cloudy
