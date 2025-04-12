@@ -17,7 +17,7 @@ if response.status_code == 200:
     df = pd.DataFrame(data)  # Convert data to DataFrame
 
     # Replace missing 'species' with 'Unknown' instead of removing them
-    df['species'].fillna('Unknown', inplace=True)
+    df['species'] = df['species'].fillna('Unknown')  # Updated to avoid inplace=True
 
     # Keep only 'species' column since 'name' is not needed for the plot
     df_cleaned = df[['species']]
@@ -30,7 +30,7 @@ if response.status_code == 200:
 
     # Plot the results
     plt.figure(figsize=(10, 6))
-    sns.barplot(x=species_counts.values, y=species_counts.index, palette='muted', orient='h')
+    sns.barplot(x=species_counts.values, y=species_counts.index, hue=species_counts.index, palette='muted', orient='h', legend=False)  # Updated seaborn warning
     plt.title('Most Common Species in Harry Potter')
     plt.xlabel('Number of Characters')
     plt.ylabel('Species')
