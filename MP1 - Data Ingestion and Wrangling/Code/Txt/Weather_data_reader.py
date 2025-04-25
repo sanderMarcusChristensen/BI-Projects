@@ -1,7 +1,9 @@
 import pandas as pd
 
 # --- Extract ---
-file_path = "../Data/Weather_data.txt"
+import os
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Data', 'Weather_data.txt')
+
 
 # Read the file
 df_raw = pd.read_csv(file_path, sep="\t", encoding='utf-8')
