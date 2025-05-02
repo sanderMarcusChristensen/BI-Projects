@@ -1,7 +1,7 @@
 # Business Intelligence – F25
 Welcome to Group 12's Git repository for the Business Intelligence course (F25). This repo contains all our mini-projects for the course.
 
-## Mini Project 1: Data Ingestion and Wrangling
+# Mini Project 1: Data Ingestion and Wrangling
 This project was part of the Data Ingestion and Wrangling assignment. Our goal was to collect, load, clean, visualize, and store data from multiple file formats.
 
 ### Overview
@@ -21,7 +21,7 @@ We created Python functions to:
 We initially misunderstood the task and used our own datasets located in the /data folder. However, we later created a small project called "World of Harry Potter" where we fetched data from an API. 
 
 
-## Mini Project 2: Data Exploration and Visualisation  
+# Mini Project 2: Data Exploration and Visualisation  
 This project is part of the "Data Exploration and Visualisation" assignment.  
 Our goal was to load, clean, explore, and visualize wine quality data using Python and Streamlit.
 
