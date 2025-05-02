@@ -68,12 +68,12 @@ The project includes:
 Open a terminal and run:
 
 ``` 
-run : pip install streamlit pandas matplotlib seaborn scikit-learn
+pip install streamlit pandas matplotlib seaborn scikit-learn
 ```
 
 ### 2. Run the app
 Navigate to the folder where streamlit_app.py is located, then run:
 
 ```bash or powershell 
-run : python -m streamlit run streamlit_app.py
+python -m streamlit run streamlit_app.py
 ```
