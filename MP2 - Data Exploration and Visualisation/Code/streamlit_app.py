@@ -14,7 +14,7 @@ wine_df, pca_df = load_data()
 
 # --- Sidebar Navigation ---
 st.sidebar.title("🍷 Wine App Menu")
-page = st.sidebar.radio("Choose a section", ["Home", "Wine Data", "Visualizations", "PCA View", "Wine Facts"])
+page = st.sidebar.radio("Choose a section", ["Home", "Wine Data", "Visualizations", "PCA View"])
 
 # --- Page: Home ---
 if page == "Home":
@@ -67,27 +67,3 @@ elif page == "PCA View":
 
     st.write("Random rows from PCA-reduced data:")
     st.dataframe(pca_df.sample(10))
-
-# --- Page: Wine Facts ---
-elif page == "Wine Facts":
-    st.title("📚 Wine Quality Facts")
-
-    st.markdown("""
-    **What affects wine quality?**
-    
-    1. **Alcohol** – Stronger wines are often rated higher.
-    2. **Volatile acidity** – Too much acidity lowers quality.
-    3. **Sulphates** – Help preserve and stabilize wine.
-    
-    **Other factors include:**
-    - Grape type and harvest time
-    - Region (soil, weather)
-    - Aging and fermentation technique
-    - Human taste preferences
-
-    **Further Reading:**
-    - [Wikipedia: Wine](https://en.wikipedia.org/wiki/Wine)
-    - [Wine Tasting Basics (YouTube)](https://www.youtube.com/watch?v=ZzN5ZkERXJw)
-    """)
-
-    st.video("https://www.youtube.com/watch?v=ZzN5ZkERXJw")
