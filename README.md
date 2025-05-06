@@ -74,6 +74,9 @@ pip install streamlit pandas matplotlib seaborn scikit-learn
 ### 2. Run the app
 Navigate to the folder where streamlit_app.py is located, then run:
 
+
+("your pc stof"/MP2 - Data Exploration and Visualisation/Code)
+
 ```bash or powershell 
 python -m streamlit run streamlit_app.py
 ```
