@@ -44,10 +44,15 @@ A specially designed virtual chatbot, the **AI Moderator**, will assist your tea
 ##  Suggested Workflow
 
 1. **Read the task** individually to understand the requirements.
+
 2. **Plan together:** As a group, design a work schedule that spans until the deadline. Some parts of the task may be introduced later.
+
 3. **Brainstorm and analyze:** Discuss how to solve the problem using data wrangling, exploration, and visualization. Decide whether to use Jupyter notebooks, Python packages, or both.
+
 4. **Split tasks:** Break down the implementation and assign subtasks to group members or pairs. Plan for code validation and testing. Use the Moderator for testing if needed.
+
 5. **Develop individually:** Begin working on your assigned parts. Refer to class exercises, the Titanic demo, instructors, the Moderator, and trusted sources. Avoid copy-pasting large code blocks—write and test smaller pieces yourself.
+
 6. **Integrate as a group:** During the next workshop, merge everyone’s work into a final, clean solution. Organize your files clearly.  
    - Write a short `README.md` summarizing your process and results.
    - List group member names and their contributions.
