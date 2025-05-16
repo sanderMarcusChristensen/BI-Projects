@@ -9,8 +9,6 @@ All tasks descriptions can be found inside the `tasks` folder under their respec
 ---
 
 <br>
-<br>
-
 
 
 # Mini Project 1: Data Ingestion and Wrangling
@@ -36,9 +34,6 @@ We initially misunderstood the task and used our own datasets located in the /da
 
 
 <br>
-<br>
-
-
 
 # Mini Project 2: Data Exploration and Visualisation  
 This project is part of the "Data Exploration and Visualisation" assignment.  
@@ -100,7 +95,6 @@ Navigate to the folder where streamlit_app.py is located, then run:
 python -m streamlit run streamlit_app.py
 ```
 
-<br>
 <br>
 
 
