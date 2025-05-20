@@ -28,8 +28,6 @@ page = st.sidebar.radio("Select a task", [
 if page == "1. Intro to project":
     import time
 
-    with st.spinner("Loading your intelligent workspace..."):
-        time.sleep(2)
 
     st.balloons()
 
