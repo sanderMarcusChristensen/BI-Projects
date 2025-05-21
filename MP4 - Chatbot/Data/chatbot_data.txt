@@ -1,0 +1,68 @@
+
+Business Intelligence – Projektoversigt (Gruppe 12, F25, Cphbusiness)
+
+Dette dokument beskriver tre mini-projekter, som vores gruppe har arbejdet med i BI-kurset. Projekterne dækker hele data-pipelinen – fra dataindsamling og -rensning til analyse, visualisering og brug af machine learning.
+
+---
+
+Mini Projekt 1 – Data Ingestion og Wrangling
+
+I dette projekt arbejdede vi med at hente, rense og visualisere data fra flere forskellige filformater, såsom CSV, JSON og TXT. Vi udviklede funktioner i Python til at indlæse data i pandas DataFrames, udføre datarensning (inkl. håndtering af manglende værdier) og lave visualiseringer med Matplotlib og Seaborn.
+
+Vi arbejdede også med et API-baseret datasæt ("World of Harry Potter") og lagrede datasættene i vores projektmappe.
+
+---
+
+Mini Projekt 2 – Data Exploration og Visualisering
+
+Formålet var at analysere og visualisere data fra vin-datasæt (rød og hvid vin) i en interaktiv Streamlit-app. Vi startede med datavask og rensning, efterfulgt af feature exploration, korrelationsanalyse og fjernelse af outliers. Vi anvendte PCA til at reducere dimensioner og visualisere sammenhænge i fx kvalitet, pH, alkohol og densitet.
+
+Teknologier: Python 3.12, Pandas, Matplotlib, Seaborn, Scikit-learn (PCA), Streamlit
+
+Eksempler på spørgsmål vi undersøgte:
+- Hvilken vin-type har højere gennemsnitskvalitet?
+- Hvordan hænger alkohol og sukkerindhold sammen med kvalitet?
+- Hvilke variable har mest betydning for bedømmelser?
+- Kan PCA give et forenklet overblik over data?
+
+---
+
+Mini Projekt 3 – Machine Learning i HR Analyse
+
+Vi arbejdede med IBM HR Analytics-datasæt for at forudsige medarbejderes adfærd og sandsynlighed for opsigelser.
+
+ML-opgaver:
+- Regression: Forudsige månedsløn
+- Klassifikation: Forudsige om en medarbejder forlader jobbet
+- Clustering: Opdele medarbejdere i grupper (segmentering)
+
+Metoder og vurdering:
+- Lineær regression med R² på 0.934 og RMSE på ca. 1.154 DKK
+- Klassifikation vurderet via accuracy, precision, recall og F1-score
+- Clustering evalueret med Silhouette Score = 0.317
+
+Indsigter:
+- Høj risiko for opsigelse ved overarbejde, lav jobtilfredshed, dårligt miljø, og lav anciennitet
+- Yngre medarbejdere skifter oftere job
+- Uddannelse forbedrer ikke nødvendigvis tilfredshed – miljø og work-life balance spiller større rolle
+
+Muligheder for forbedring:
+- Feature engineering
+- Krydvalidering (k-fold)
+- Bedre håndtering af ubalancerede data (SMOTE)
+- Analyse over tid
+
+Vi undersøgte også:
+- Forskel på afdelingers risiko for opsigelser (ja, især ved lav anciennitet og overarbejde)
+- Lønforskelle mellem køn (små forskelle)
+- Indflydelse fra familie og pendling på work-life balance
+
+Udfordringer:
+- Feature selection
+- Ubalance i data
+- Tolkning af komplekse sammenhænge i løn- og tidsspor
+
+---
+
+Dette dokument viser vores samlede anvendelse af BI-teknikker fra hele kurset, fra databehandling og visualisering til maskinlæring og forudsigelser.
+

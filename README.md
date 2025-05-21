@@ -244,3 +244,64 @@ Several challenges arose during the development of this project:
 - **Data interpretation:** Some relationships, like between education and job satisfaction, were not clearly defined, making interpretation less straightforward. We still dont know what is ment by DailyRate and HourlyRate
 
 --- 
+
+
+<br>
+<br>
+
+
+# Mini Project 4: BI Chatbot with PDF & Web RAG
+
+This project demonstrates how to build a **Business Intelligence Chatbot** using **RAG (Retrieval-Augmented Generation)**. The chatbot combines a local language model (via Ollama) with your own project documents and web content. It allows you to ask questions and receive context-based answers based on PDFs, TXT files, or URLs.
+
+We use the open source `llama3.2:3b` model locally and combine it with Langchain and Streamlit to create an interactive web interface.
+
+---
+
+### Features
+
+- Automatic loading of `.pdf` and `.txt` files from the `/Data` folder  
+- Optional web scraping from user-provided URLs  
+- Text splitting and vectorization  
+- Retrieval-based Q&A using Langchain's vector store  
+- Clean web interface with Streamlit  
+
+---
+
+###  Technologies Used
+
+- **Python 3.12**
+- **Langchain** – for embeddings and prompt management  
+- **Ollama** – runs the language model locally  
+- **Streamlit** – interactive user interface  
+- **PyMuPDF** – PDF text extraction  
+- **Selenium** – URL content extraction  
+
+---
+<br>
+
+## ▶ How to Run the Chatbot
+
+### 1. Install Requirements
+
+Install everything with:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually: 
+```bash
+pip install streamlit langchain langchain-community langchain-core langchain-ollama pymupdf
+```
+
+
+### Using the Chatbot
+- Add your own .pdf or .txt files to the /Data folder
+- open a terminal to where chatbot.py is in path 
+- run this: 
+```bash
+python -m streamlit run Chatbot.py
+``` 
+- Optionally enter a web URL to include extra context
+- Ask any question related to your uploaded content
